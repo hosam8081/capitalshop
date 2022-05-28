@@ -143,18 +143,18 @@ function checkMode() {
 
 document.addEventListener("DOMContentLoaded", () => {
    checkMode();
+   /* end Dark Mode */
+   
+   let dataDb = JSON.parse(localStorage.getItem("data")).items;
+   let tabs = document.querySelector(".tabs");
+   let unique = new Set(["All", ...dataDb.map(ele => ele.category)]);
+   
+   
+   if (tabs) {
+      let tab = [...unique].map(li => `<li class="${li == "All" ? "active" : ""} pe-4 ps-4 pb-2 fw-bold text-center" data-cate="${li}" onclick="showTab('${li}')">${li}</li>`)
+      tabs.innerHTML = tab.join(" ");
+   }
 });
-/* end Dark Mode */
-
-let dataDb = JSON.parse(localStorage.getItem("data")).items;
-let tabs = document.querySelector(".tabs");
-let unique = new Set(["All", ...dataDb.map(ele => ele.category)]);
-
-
-if (tabs) {
-   let tab = [...unique].map(li => `<li class="${li == "All" ? "active" : ""} pe-4 ps-4 pb-2 fw-bold text-center" data-cate="${li}" onclick="showTab('${li}')">${li}</li>`)
-   tabs.innerHTML = tab.join(" ");
-}
 
 function showTab(li) {
    let newCate = dataDb.filter(item => item.category == li);
