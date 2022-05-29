@@ -18,6 +18,7 @@ if (signup) {
          // add to local storage
          localStorage.setItem("username", input.value);
          localStorage.setItem("password", password.value);
+         window.location.href="login.html"
       }
    });
 }

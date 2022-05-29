@@ -14,7 +14,7 @@ if (btnLogin) {
          document.querySelector(".user").style.display = "block";
          document.querySelector(".user a").innerHTML =
             localStorage.getItem("username");
-         window.location.href = "profile.html";
+         window.location.href = "shop.html";
       } else {
          alert("password or gmail is wrong");
       }
