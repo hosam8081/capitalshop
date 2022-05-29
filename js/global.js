@@ -129,7 +129,10 @@ function checkMode() {
       document.documentElement.style.setProperty("--clr-intro", "#000");
       document.documentElement.style.setProperty("--clr-navbar", "#fafafa");
       document.documentElement.style.setProperty("--cart-box", "#202020");
-      document.querySelector(".navbar-brand img").src='./img/footer-logo.webp'
+      document.querySelector(".navbar-brand img").src='./img/footer-logo.webp';
+      if(document.querySelector(".table")) {
+         document.querySelector('.table').classList.add("table-dark");
+      }
       themes = "white";
       localStorage.setItem("mode", "dark");
    } else {
