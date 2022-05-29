@@ -8,4 +8,4 @@ Ecommerce using vanilla js, html, sass and bootstrap
 - using localStoarge
 
 
-My favorite search engine is [Capitalshop](https://hosam8081.github.io/capitalshop/index.html).
+My favorite search engine is :point_right: [Capitalshop](https://hosam8081.github.io/capitalshop/index.html).
