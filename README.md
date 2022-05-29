@@ -8,4 +8,4 @@ Ecommerce using vanilla js, html, sass and bootstrap
 - using localStoarge
 
 
-Try Demo Here [capitalShop]((https://hosam8081.github.io/capitalshop/index.html)).
+My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
