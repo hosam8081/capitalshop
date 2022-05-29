@@ -7,5 +7,5 @@ Ecommerce using vanilla js, html, sass and bootstrap
 - login and sign up
 - using localStoarge
 
-##Demo
+## Demo
 :point_right: try Demo here [Capitalshop](https://hosam8081.github.io/capitalshop/index.html).
