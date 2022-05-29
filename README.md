@@ -8,4 +8,4 @@ Ecommerce using vanilla js, html, sass and bootstrap
 - using localStoarge
 
 
-try Demo here :point_right: [Capitalshop](https://hosam8081.github.io/capitalshop/index.html).
+:point_right: try Demo here [Capitalshop](https://hosam8081.github.io/capitalshop/index.html).
