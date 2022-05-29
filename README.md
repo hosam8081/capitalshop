@@ -1,2 +1,2 @@
 # capitalshop
-Ecommerce using vanilla js, html, sass and bootstrap
+- Ecommerce using vanilla js, html, sass and bootstrap
